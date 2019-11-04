@@ -1,0 +1,9 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    {% for person in persons %}
+        <div>
+            <div>{{ person.id }}. {{ person.first_name }} {{ person.last_name }}</div>
+        </div>
+    {% endfor %}
+{% endblock %}
