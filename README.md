@@ -1,1 +1,1 @@
-# django-tutorial-sqlite
+# django tutorial sqlite
